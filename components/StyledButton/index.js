@@ -6,6 +6,7 @@ const StyledButton= (props)=>{  //props=properties
     const type = props.type;
     const content = props.content;
     const onPress = props.onPress;
+    //or const{type.content.onPress} = props;
 
     //if type is primary the color will be black if not i will be white
     const backgroundColor = type === 'primary'?'#171A20CC' : '#FFFFFFa6';
